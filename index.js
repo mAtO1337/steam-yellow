@@ -4,7 +4,7 @@ const client = new SteamUser();
 SteamUser.prototype.setPersona = function(state, name) {
 	this._send(SteamUser.EMsg.ClientChangeStatus, {
 		"persona_state": state,
-		"persona_state_flags": 4,
+		"persona_state_flags": 2820,
 		"player_name": name
 	});
 };
